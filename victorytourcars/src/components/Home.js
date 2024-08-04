@@ -8,11 +8,15 @@ function Home() {
     <div className="home">
       <h1>Wszystkie Samochody</h1>
       <div className="car-grid">
-        {cars.map(car => (
-          <div key={car.id} className="car-card">
-            <h2>{car.name}</h2>
-          </div>
-        ))}
+        {cars.length === 0 ? (
+          <p>Brak samochodów do wyświetlenia.</p>
+        ) : (
+          cars.map(car => (
+            <div key={car.id} className="car-card">
+              <h2>{car.name}</h2>
+            </div>
+          ))
+        )}
       </div>
     </div>
   );

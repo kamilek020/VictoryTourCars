@@ -3,12 +3,12 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
 import CarDetails from './components/CarDetail';
 import AdminPanel from './components/AdminPanel';
-import { CarProvider } from './context/CarContext'; // Importuj CarProvider
+import { CarProvider } from './context/CarContext';
 import './App.css';
 
 function App() {
   return (
-    <CarProvider> {/* Owiń aplikację w CarProvider */}
+    <CarProvider>
       <Router>
         <div className="app-container">
           <header className="navbar">
