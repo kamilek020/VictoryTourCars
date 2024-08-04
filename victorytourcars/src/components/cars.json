@@ -1,0 +1,120 @@
+[
+    {
+      "id": 1,
+      "name": "Nazwa pojazdu",
+      "description": "opis pojazdu",
+      "image": "./images/test.jpeg",
+      "categories": {
+        "typ": "sportowy",
+        "moc": "610 KM",
+        "prędkość maksymalna": "330 km/h"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Nazwa pojazdu",
+      "description": "opis pojazdu",
+      "image": "./images/test.jpeg",
+      "categories": {
+        "typ": "sportowy",
+        "moc": "610 KM",
+        "prędkość maksymalna": "330 km/h"
+      }
+    }
+    ,
+    {
+      "id": 3,
+      "name": "Nazwa pojazdu",
+      "description": "opis pojazdu",
+      "image": "./images/test.jpeg",
+      "categories": {
+        "typ": "sportowy",
+        "moc": "610 KM",
+        "prędkość maksymalna": "330 km/h"
+      }
+    }
+    ,
+    {
+      "id": 4,
+      "name": "Nazwa pojazdu",
+      "description": "opis pojazdu",
+      "image": "./images/test.jpeg",
+      "categories": {
+        "typ": "sportowy",
+        "moc": "610 KM",
+        "prędkość maksymalna": "330 km/h"
+      }
+    }
+    ,
+    {
+      "id": 5,
+      "name": "Nazwa pojazdu",
+      "description": "opis pojazdu",
+      "image": "./images/test.jpeg",
+      "categories": {
+        "typ": "sportowy",
+        "moc": "610 KM",
+        "prędkość maksymalna": "330 km/h"
+      }
+    }
+    ,
+    {
+      "id": 5,
+      "name": "Nazwa pojazdu",
+      "description": "opis pojazdu",
+      "image": "./images/test.jpeg",
+      "categories": {
+        "typ": "sportowy",
+        "moc": "610 KM",
+        "prędkość maksymalna": "330 km/h"
+      }
+    }
+    ,
+    {
+      "id": 5,
+      "name": "Nazwa pojazdu",
+      "description": "opis pojazdu",
+      "image": "./images/test.jpeg",
+      "categories": {
+        "typ": "sportowy",
+        "moc": "610 KM",
+        "prędkość maksymalna": "330 km/h"
+      }
+    }
+    ,
+    {
+      "id": 5,
+      "name": "Nazwa pojazdu",
+      "description": "opis pojazdu",
+      "image": "./images/test.jpeg",
+      "categories": {
+        "typ": "sportowy",
+        "moc": "610 KM",
+        "prędkość maksymalna": "330 km/h"
+      }
+    }
+    ,
+    {
+      "id": 5,
+      "name": "Nazwa pojazdu",
+      "description": "opis pojazdu",
+      "image": "./images/test.jpeg",
+      "categories": {
+        "typ": "sportowy",
+        "moc": "610 KM",
+        "prędkość maksymalna": "330 km/h"
+      }
+    }
+    ,
+    {
+      "id": 5,
+      "name": "Nazwa pojazdu",
+      "description": "opis pojazdu",
+      "image": "./images/test.jpeg",
+      "categories": {
+        "typ": "sportowy",
+        "moc": "610 KM",
+        "prędkość maksymalna": "330 km/h"
+      }
+    }
+  ]
