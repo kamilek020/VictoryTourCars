@@ -1,26 +1,19 @@
-import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
-import carsData from './cars.json'; // Import pliku JSON z danymi o samochodach
+import React from 'react';
+import { useCars } from '../context/CarContext';
 
 function Home() {
-  const [cars, setCars] = useState([]);
-
-  useEffect(() => {
-    // Ustawienie stanu na podstawie importowanych danych z carsData
-    setCars(carsData);
-  }, []);
+  const { cars } = useCars();
 
   return (
-    <div className="car-grid">
-      {cars.map(car => (
-        <div key={car.id} className="car-tile">
-          <Link to={`/car/${car.id}`}>
-            <img src={car.image} alt={car.name} />
+    <div className="home">
+      <h1>Wszystkie Samochody</h1>
+      <div className="car-grid">
+        {cars.map(car => (
+          <div key={car.id} className="car-card">
             <h2>{car.name}</h2>
-            <p>{car.description}</p>
-          </Link>
-        </div>
-      ))}
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
